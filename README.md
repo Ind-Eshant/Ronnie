@@ -20,3 +20,18 @@ Developed by **Eshant More**, Ronie is designed to bring smart conversations, as
 ```bash
 git clone https://github.com/Ind-Eshant/Ronnie.git
 cd ronie-discord-bot
+### 2.pip install -r requirements.txt
+### 3. Configure environment variables
+Create a .env file in the project root and add:
+
+env
+Copy
+Edit
+DISCORD_TOKEN=your-bot-token
+API_KEY=your-ai-api-key
+MAX_HISTORY=10
+### 4. Run the bot
+bash
+Copy
+Edit
+python RonieBot.py
